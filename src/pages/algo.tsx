@@ -236,7 +236,7 @@ const Algo = () => {
         ))}
       </div>
       <div className=" flex flex-col justify-end">
-        <p className="text-xs my-3 text-end w-full min-h-4">
+        <p className="text-xs text-gray-900 my-3 text-end w-full min-h-4">
           {
             doneFinding && (
               <>

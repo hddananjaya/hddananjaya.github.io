@@ -29,14 +29,12 @@ const Taskbar = () => {
     };
 
     return (
-        <div className="fixed bottom-0 left-0 right-0 h-10 bg-gradient-to-t from-gray-800 to-gray-600 text-white flex items-center justify-between pr-4 shadow-lg border-t border-gray-700">
+        <div className="hidden md:flex fixed bottom-0 left-0 right-0 h-10 bg-gradient-to-t from-gray-800 to-gray-600 text-white items-center justify-between pr-4 shadow-lg border-t border-gray-700">
             <div className="flex items-center space-x-4 h-full">
                 <button
                     className="h-full px-6 flex items-center space-x-2 bg-green-500 hover:bg-green-400 p-2 rounded-r-3xl shadow-inner border border-green-600 text-white font-bold text-sm transition duration-300 ease-in-out transform"
                     style={{
-                        backgroundImage: `linear-gradient(180deg, #f3f3f3af, #fcfcfcaf 3px, #dbdbdbaf 6px, transparent 0), 
-                                          linear-gradient(180deg, transparent 65%, #ffffff55), 
-                                          linear-gradient(180deg, transparent 6px, #cacaca33 0, #d5d5d533)`
+                        backgroundImage: `linear-gradient(180deg, transparent 65%, #ffffff55)`
                     }}
                     onClick={toggleStartMenu}
                 >
